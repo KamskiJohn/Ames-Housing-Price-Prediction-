@@ -40,7 +40,7 @@ for na in NA:
 train['MasVnrArea'].fillna(0, inplace = True)
 train['LotFrontage'].fillna(0, inplace = True)
 
-#Understanding the Corrrelation
+#Understanding the Corrrelations
 sns.distplot(train.SalePrice)
 plt.show()
 
